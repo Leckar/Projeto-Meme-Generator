@@ -8,7 +8,7 @@ body {
   margin: 5%;
   padding: 5%;
   text-align: center;
-  background-image: url('./img/pokerface.png');
+  background-image: url('./imgs/pokerface.png');
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ header {
   margin-bottom: 2em;
 }
 
-main{
+main {
   background-color: beige;
   border-radius: 15px;
   box-shadow: 3px 3px 6px;
@@ -55,7 +55,7 @@ input {
   z-index: 100;
   text-shadow: 5px 5px 5px black;
   bottom: 3rem;
-  right: 50%;
+  left: 10rem;
   color: white;
   font-size: 30px;
 }
@@ -68,12 +68,9 @@ input {
 }
 
 #buttons {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: 1% 30%;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 
 button {
@@ -81,11 +78,27 @@ button {
 }
 
 #fire {
-  background-color: rgb(255, 0, 0);
+  background-color: red;
 }
+
 #water {
-  background-color: rgb(0, 0, 255);
+  background-color: blue;
 }
+
 #earth {
-  background-color: rgb(0, 128, 0);
+  background-color: green;
+}
+
+#img-shortcuts {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#img-shortcuts img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px;
 }
